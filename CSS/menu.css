@@ -2,6 +2,24 @@
 * {
   box-sizing: border-box;
 }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column:hover{
+  transform: scale(1.5);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 :root {
   --accent-color: #28568f;
   --gradient-color: #fbfbfb;
@@ -144,6 +162,8 @@ body {
 .menu > ol .sub-menu li a:focus:after {
   width: 15px;
 }
+
+
 @media (min-width: 600px) {
   a:focus,
   a:hover {

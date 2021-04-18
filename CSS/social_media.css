@@ -127,3 +127,9 @@ ul.social-icons {
 .fa-github:hover {
     background-color: #5a32a3;
 }
+.imagecentre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
