@@ -99,26 +99,26 @@ body {
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('images/soweto.jpg') no-repeat
+  background: url('../images/soweto.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('images/joburg.jpg') no-repeat
+  background: url('../images/joburg.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('images/bleak.jpg') no-repeat
+  background: url('../images/bleak.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('images/kathlehong.jpeg') no-repeat
+  background: url('../images/kathlehong.jpeg') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('images/riots.jpg') no-repeat
+  background: url('../images/riots.jpg') no-repeat
     center top/cover;
 } 
 .slide:nth-child(6)  {
-  background: url('images/unequal.jpg') no-repeat
+  background: url('../images/unequal.jpg') no-repeat
     center center/cover;
 }

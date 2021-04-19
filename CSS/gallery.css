@@ -26,21 +26,21 @@ body {
 }
 
 .slide:nth-of-type(1) {
-  background-image: url("images/bingo.jpg");
+  background-image: url("../images/bingo.jpg");
 }
 
 .slide:nth-of-type(2) {
-  background-image: url("images/cameraclose.jpg");
+  background-image: url("../images/cameraclose.jpg");
 }
 
 .slide:nth-of-type(3) {
-  background-image: url("images/valBlackRussian.jpg");
+  background-image: url("../images/valBlackRussian.jpg");
 }
 
 .slide:nth-of-type(4) {
-  background-image: url("images/eye.jpg");
+  background-image: url("../images/eye.jpg");
 }
 
 .slide:nth-of-type(5) {
-  background-image: url("images/jumbo.jpg");
+  background-image: url("../images/jumbo.jpg");
 }
