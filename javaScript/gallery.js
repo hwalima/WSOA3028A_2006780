@@ -133,14 +133,7 @@
   $(document).ready(function() {
     
     $("#slider1").sliderResponsive({
-    // Using default everything
-      // slidePause: 5000,
-      // fadeSpeed: 800,
-      // autoPlay: "on",
-      // showArrows: "off", 
-      // hideDots: "off", 
-      // hoverZoom: "on", 
-      // titleBarTop: "off"
+    
     });
     
     $("#slider2").sliderResponsive({
