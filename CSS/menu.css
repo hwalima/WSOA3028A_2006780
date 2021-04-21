@@ -162,7 +162,12 @@ body {
 .menu > ol .sub-menu li a:focus:after {
   width: 15px;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
 @media (min-width: 600px) {
   a:focus,
