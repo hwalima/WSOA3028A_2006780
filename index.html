@@ -9,11 +9,15 @@
  
  <!--home courasel-->
  <link rel="stylesheet" href="./CSS/homeCourasel.css">
- 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <!--for menu-->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-   
- <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png"alt="Chibby"/> 
  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+ <!--favicon-->
+ 
+ <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png"alt="Chibby"/> 
+ 
 </head>
 <body>
       
@@ -30,52 +34,32 @@
     </script>
   <!-- navigation ends here--> 
         <!-- content starts here--> 
-        <br><br><br><br><br><br>
-        <!-- Home page courasel starts here--> 
-        <div class="CSSgal">
-
-          <!-- Don't wrap targets in parent -->
-          <s id="s1"></s> 
-          <s id="s2"></s>
-          <s id="s3"></s>
-          <s id="s4"></s>
-        
-          <div class="slider">
-            <div style="background-image:url(./images/soweto.jpg);">
-              <h2 class="text2">Soweto towers.</h2>
-              <p class="text1" >Orlando Power Station is a decommissioned coal-fired power station in Soweto, South Africa. Now used for bunjee jumping.</p>
-            </div>
-            <div style="background-image:url(./images/joburg.jpg);">
-              <h2 class="text2">Night lights of Joburg...</h2>
-              <p class="text1">A vignated picture of the city of Johannesbug magically lit by lights.</p>
-            </div>
-            <div style="background-image:url(./images/bleak.jpg);">
-              <h2 class="text2">My first camera...</h2>
-              <p class="text1">The “FTb” camera, a high-quality mass-market model was launched simultaneously with the “F-1.” It had the same basic functions as the “F-1,” and used the same new FD-series lenses, which allowed maximum-aperture TTL metering.</p>
-            </div>
-            <div style="background-image:url(./images/kathlehong.jpeg);">
-              <h2 class="text2">Kathlehong</h2>
-              <p class="text1">A random picture taken near my makeshift classroom in Kathlehong. Risky multitasking I must say!</p>
-            </div>
-          </div>
-          
-          <div class="prevNext">
-            <div><a href="#s4"></a><a href="#s2"></a></div>
-            <div><a href="#s1"></a><a href="#s3"></a></div>
-            <div><a href="#s2"></a><a href="#s4"></a></div>
-            <div><a href="#s3"></a><a href="#s1"></a></div>
-          </div>
-        
-          <div class="bullets">
-            <a href="#s1">1</a>
-            <a href="#s2">2</a>
-            <a href="#s3">3</a>
-            <a href="#s4">4</a>
-          </div>
-        
-        </div>
-        <!-- content ends here--> 
-
+        <section class="slider">
+          <section class="slide">
+            <h2 class="slide-title">Soweto towers</h2>
+            <p class="slide-desc">Orlando Power Station is a decommissioned coal-fired power station in Soweto, South Africa. Now used for bunjee jumping.</p>
+          </section>
+          <section class="slide">
+            <h2 class="slide-title">Graffiti Everywhere</h2>
+            <p class="slide-desc">A  picture of the city of Johannesbug magically lit by Graffiti.</p>
+          </section>
+          <section class="slide">
+            <h2 class="slide-title">Kathlehong</h2>
+            <p class="slide-desc">A random picture taken near my makeshift classroom in Kathlehong. Risky multitasking I must say!</p>
+              
+              
+          </section>
+          <section class="slide">
+            <h2 class="slide-title">My first camera...</h2>
+            <p class="slide-desc">The “FTb” camera, a high-quality mass-market model was launched simultaneously with the “F-1.” It had the same basic functions as the “F-1,” and used the same new FD-series lenses, which allowed maximum-aperture TTL metering. </p>
+              
+              
+          </section>
+          <button class="arrow prev"><</button>
+          <button class="arrow next">></button>
+          <ul class="slide-nav"></ul>
+       </section>
+        <!-- Home page courasel ends here-->
         <!-- footer starts here-->           
         <section id="nav-footer">
 
@@ -87,6 +71,6 @@
           });
           </script>
         <!-- footer ends here--> 
-        
+        <script src="./javaScript/homeImages.js"></script>
 </body>
 </html>

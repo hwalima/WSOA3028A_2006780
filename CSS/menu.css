@@ -20,11 +20,9 @@ body{
 
 }
 .center{
-	size: 75%;
-	width: 100%;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 50px;
+	margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .nav-link:hover{
