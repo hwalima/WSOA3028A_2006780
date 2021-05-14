@@ -1,10 +1,12 @@
 @import "compass/css3";
  * {
 	 box-sizing: border-box;
-	 font-family: Baskerville, "Hoefler Text", Garamond, "Times New Roman", serif;
-}
+	 font-family: 'Raleway', sans-serif;
+	 
+	}
+
  body {
-	 background: #ffffff;
+	 background: #ffffff !important;
 }
  blockquote {
 	 margin: 3%;
@@ -24,24 +26,7 @@
 	 background:#dca684;
 	 border-bottom: 3px solid #ccc;
 }
- .header {
-	 max-width: 1200px;
-	 width: 98%;
-	 height: 8.8em;
-	 margin: 0px auto;
-	 overflow: hidden;
-}
- .header .social {
-	 float: right;
-	 padding: 35px 0 0 0;
-}
- .header .social img {
-	 opacity: 0.85;
-	 transition: all 0.3s;
-}
- .header .social img:hover {
-	 opacity: 1;
-}
+ 
  .header h1 {
 	 text-align: center;
 	 font-style: italic;
@@ -64,7 +49,7 @@
 }
  .content {
 	 max-width: 750px;
-	 margin: 40px auto;
+	 margin: auto auto;
 	 padding: 0;
 }
  .date {
@@ -90,7 +75,7 @@
  .article {
 	 width: 90%;
 	 margin: 0 0 6em 0;
-	 float: left;
+	
 	 padding: 0 1.3em 0 1.3em;
 	 border-left: 5px solid #d27d7d;
 }
@@ -144,20 +129,7 @@
 	 padding-right: 0.1em;
 	 padding-left: 0;
 }
- .footer {
-	 max-width: 1200px;
-	 width: 98%;
-	 height: 50px;
-	 margin: 0px auto;
-	 overflow: hidden;
-	 border-top: 1px solid #ccc;
-}
- .footer .copy {
-	 float: right;
-	 font-style: italic;
-	 color: #888;
-	 padding: 1% 1% 0 0;
-}
+ 
  .prev a, .next a {
 	 position: fixed;
 	 top: 9.6em;
@@ -179,9 +151,7 @@
 	 .content {
 		 margin-top: 2em;
 	}
-	 .social {
-		 display: none;
-	}
+	
 	 .date {
 		 display: none;
 	}
@@ -222,14 +192,7 @@
 	 .header .author {
 		 display: none;
 	}
-	 .footer {
-		 text-align: center;
-		 padding: 3%;
-		 height: 40px;
-	}
-	 .footer .copy {
-		 float: none;
-	}
+	 
 	 .prev a, .next a {
 		 position: relative;
 		 margin-bottom: 2em;
@@ -247,6 +210,6 @@
 }
  ::selection {
 	 color: white;
-	 background: #444;
+	 background: rgb(80, 40, 40);
 }
  

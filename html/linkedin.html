@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn</title>
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ <link rel="shortcut icon" type="image/mng" href="../images/Sikhue Chibby 5.png"alt="Chibby"/>
+   </head>
+<body>
+  <!-- navigation starts here--> 
+  <section id="nav-placeholder">
+
+  </section>
+  
+  <script>
+    $.get("navigationMenu.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+  <!-- navigation ends here--> 
+        <!-- content starts here--> 
+        
+        <!-- content ends here--> 
+
+        <!-- footer starts here-->           
+        <section id="nav-footer">
+
+        </section>
+        
+        <script>
+          $.get("footer.html", function(data){
+              $("#nav-footer").replaceWith(data);
+          });
+          </script>
+        <!-- footer ends here--> 
+</body>
+</html>
