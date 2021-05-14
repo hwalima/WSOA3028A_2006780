@@ -71,16 +71,16 @@
   width: 100%;
 }
 .slide:first-of-type {
-  background-image: url(../images/soweto.jpg);
+  background-image: url(./images/soweto.jpg);
 }
 .slide:nth-of-type(2) {
-  background-image: url(../images/Johannesburgwide4.jpg);
+  background-image: url(./images/Johannesburgwide4.jpg);
 }
 .slide:nth-of-type(3) {
-  background-image: url(../images/kathlehong.jpeg);
+  background-image: url(./images/kathlehong.jpeg);
 }
 .slide:last-of-type {
-  background-image: url(../images/bleak.jpg);
+  background-image: url(./images/bleak.jpg);
 }
 .active {
   display: block;
