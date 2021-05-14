@@ -12,6 +12,18 @@
   font-size:1.2em;
 }
 
+.caption {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  background: #726b7b;
+  opacity: 90%;
+  font-size: 20px;
+ text-align: center;
+}
 .swiper-container{
   width:100%;
   overflow:hidden;
@@ -33,4 +45,11 @@ img{
   .swiper-container{
    height:100%;
   }
+  
+   .caption{
+    position: relative;
+    bottom: 0;
+    height:auto;
+    width: 100%;
+   }
 }

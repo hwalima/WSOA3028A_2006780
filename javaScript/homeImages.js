@@ -1,9 +1,9 @@
-var mySwiper = new Swiper('.swiper-container',{speed: 400,
+var mySwiper = new Swiper('.swiper-container',{speed: 5000,
     spaceBetween: 0,
     grabCursor:true,
                                             autoplay:{
     autoplay:true,
-    delay:2000,                             disableOnInteraction:false         
+    delay:5000,                             disableOnInteraction:false         
                }                       
                                       });
 
