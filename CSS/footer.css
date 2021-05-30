@@ -12,7 +12,8 @@
   footer {
 	background-color: #e9dec6;
 	color: #726b7b;
-	line-height: 1.5;
+	line-height: 1.5;	
+	
 	
   }
   footer a {
@@ -34,6 +35,7 @@
   
   .container {
 	flex: 1;
+	
   }
   /* Footer main */
   .ft-main {

@@ -10,12 +10,8 @@
  <!--home courasel-->
  <link rel="stylesheet" href="./CSS/homeCourasel.css">
 <script src="./javaScript/homeImages.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
- <!--for menu-->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
- <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
+<!--for menu-->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
  <!--favicon-->
  
  <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png"alt="Chibby"/> 
@@ -23,55 +19,94 @@
 </head>
 <body>
       
-
     <!-- navigation starts here--> 
-  <section id="nav-placeholder">
+        <section id="navigationSection"></section>
 
-  </section>
-  
-  <script>
-    $.get("navigationMenu.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    </script>
-  <!-- navigation ends here--> 
-        <!-- content starts here--> 
-        
-<section class="swiper-container">
-  <section class="swiper-wrapper">  
-          
-    
-    <section class="swiper-slide"><img src="./images/Johannesburgwide4.jpg">
-      
-      <section class="caption"><h1>Graffiti everywhere!</h1> <p>graffiti decorations around Johannesburg.</p> </section>
-    </section>
-    <section class="swiper-slide"><img src="./images/soweto.jpg">
-      
-      <section class="caption"><h1>Soweto Towers</h1> <p>The decomissioned Orland thermal power station towers have been successfully used for bunjee jumping for many years.</p> </section>
-    </section>
-    <section class="swiper-slide"><img src="./images/bleak.jpg">
-      
-      <section class="caption"><h1>My First Camera...</h1>The first camera that lit the path towards my photography studies.</section>
-    </section>
-    <section class="swiper-slide"><img src="./images/kathlehong.jpeg">
-      
-      <section class="caption"><h1>Kathlehong</h1><p>Captured on camera!!! This man was photographed doing some dangerous multitasking near my make-shif classroom.</p></section>
-    </section>
-    
-  </section>
-</section>
-        <!-- Home page courasel ends here-->
-        <!-- footer starts here-->           
-        <section id="nav-footer">
-
-        </section>
-        
         <script>
-          $.get("footer.html", function(data){
-              $("#nav-footer").replaceWith(data);
-          });
-          </script>
+          $('#navigationSection').load('nav.html'); // loads the .html in the #navigationSection
+        </script>
+       
+  <!-- navigation ends here--> 
+
+       <!-- Home page courasel starts here-->
+      
+       <input type="radio" id="s-1" name="slider-control" checked="checked">
+       <input type="radio" id="s-2" name="slider-control">
+       <input type="radio" id="s-3" name="slider-control">
+       <section class="js-slider">
+         <figure class="js-slider_item img-1">
+           <section class="js-slider_img">
+             <img class="c-img-w-full" src="./images/soweto.jpg" alt="Soweto towers">
+           </section>
+           <figcaption class="wo-caption">
+             <h3 class="wo-h3">
+               <section class="c-label">Soweto Towers</section>
+               <br class="view-sm mb-s">An image of the decommisioned Orlando  power station, captured during a lecture.</h3>
+             <ul class="wo-credit">
+               <li>Soweto Towers is currently owned and managed by Nico Myburg who has 20 years of bungee and extreme sports experience. His motivation is introducing people to the world of adrenaline.</li>
+               <br>
+               <li>
+                 <span class="c-txt-s">James Dladla photography: 2011</span></li>
+             </ul>
+           </figcaption>
+         </figure>
+         <figure class="js-slider_item img-2">
+          <section class="js-slider_img">
+            <img class="c-img-w-full" src="./images/Johannesburgwide4.jpg" alt="Grafitti">
+          </section>
+          <figcaption class="wo-caption">
+            <h3 class="wo-h3">
+              <section class="c-label">Graffiti in the city of gold.</section>
+              <br class="view-sm mb-s">Photography of street art, a contentious topic in South Africa</h3>
+            <ul class="wo-credit">
+              <li>Johannesburg’s street art scene is on the rise as more and more artists, both local and international, are flocking to the city to color the streets.</li>
+              <br>
+              <li>
+                <span class="c-txt-s">James Dladla photography: 2017</span></li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="js-slider_item img-3">
+          <section class="js-slider_img">
+            <img class="c-img-w-full" src="./images/unequal.jpg" alt="Unequal scenes">
+          </section>
+          <figcaption class="wo-caption">
+            <h3 class="wo-h3">
+              <section class="c-label">Unequal scenes.</section>
+              <br class="view-sm mb-s">I captured the story of Alexandra and Sandton on camera, a story of the most stark sectionide of wealth in South Africa.</h3>
+            <ul class="wo-credit">
+              <li>Less than a kilometer away from Sandton, across the M1 highway, sits the former township of Alexandra, an icon of apartheid-era urban planning, and former home to several famous struggle heroes including Nelson Mandela.</li>
+              <br>
+              <li>
+                <span class="c-txt-s">James Dladla photography: 2019</span></li>
+            </ul>
+          </figcaption>
+        </figure>
+         <section class="js-slider_nav">
+           <label class="js-slider_nav_item s-nav-1 prev" for="s-3"></label>
+           <label class="js-slider_nav_item s-nav-1 next" for="s-2"></label>
+           <label class="js-slider_nav_item s-nav-2 prev" for="s-1"></label>
+           <label class="js-slider_nav_item s-nav-2 next" for="s-3"></label>
+           <label class="js-slider_nav_item s-nav-3 prev" for="s-2"></label>
+           <label class="js-slider_nav_item s-nav-3 next" for="s-1"></label>
+         </section>
+         <section class="js-slider_indicator">
+           <section class="js-slider-indi indi-1"></section>
+           <section class="js-slider-indi indi-2"></section>
+           <section class="js-slider-indi indi-3"></section>
+         </section>
+       </section>
+        <!-- Home page courasel ends here-->
+        
+        <!-- footer starts here-->  
+       
+        <section id="footerSection"></section>         
+        <script>
+          $('#footerSection').load('footer.html'); // loads the .html in the #navigationSection
+        </script>
+        
+        
         <!-- footer ends here--> 
-        <script src="./javaScript/homeImages.js"></script>
+        
 </body>
 </html>
