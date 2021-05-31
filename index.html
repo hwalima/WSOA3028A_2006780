@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
- 
- 
- <!--home courasel-->
- <link rel="stylesheet" href="./CSS/homeCourasel.css">
-<script src="./javaScript/homeImages.js"></script>
-<!--for menu-->
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
- <!--favicon-->
- 
- <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png"alt="Chibby"/> 
- 
+
+  <!--home courasel-->
+  <link rel="stylesheet" href="./CSS/homeCourasel.css">
+  <script type="module" src="./javaScript/homeImages.js"></script>
+  
+  <!--for menu-->
+  <script src="./javaScript/navMenu.js"></script>
+  <link rel="stylesheet" href="./CSS/mainmenu.css">
+  <!--favicon-->
+  
+  <!--Icons-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+  <!--favicon-->
+  <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png" alt="Chibby" />
+
 </head>
+
 <body>
-      
-    <!-- navigation starts here--> 
-        <section id="navigationSection"></section>
+  <nav>
+    
+  </nav class="menu-item">
+  <h1>I must chill under the cute menu</h1>
+  <!-- navigation ends here-->
 
-        <script>
-          $('#navigationSection').load('nav.html'); // loads the .html in the #navigationSection
-        </script>
-       
-  <!-- navigation ends here--> 
-
-       <!-- Home page courasel starts here-->
-      
-       <input type="radio" id="s-1" name="slider-control" checked="checked">
+  <!-- Home page courasel starts here-->
+  
+  <input type="radio" id="s-1" name="slider-control" checked="checked">
        <input type="radio" id="s-2" name="slider-control">
        <input type="radio" id="s-3" name="slider-control">
        <section class="js-slider">
@@ -96,17 +98,12 @@
            <section class="js-slider-indi indi-3"></section>
          </section>
        </section>
-        <!-- Home page courasel ends here-->
-        
-        <!-- footer starts here-->  
-       
-        <section id="footerSection"></section>         
-        <script>
-          $('#footerSection').load('footer.html'); // loads the .html in the #navigationSection
-        </script>
-        
-        
-        <!-- footer ends here--> 
-        
+  <!-- Home page courasel ends here-->
+
+  <!-- footer starts here-->
+
+
+  <!-- footer ends here-->
+
 </body>
 </html>

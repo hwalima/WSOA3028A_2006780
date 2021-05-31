@@ -6,38 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Creative Blogs</title>
  
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
- <link rel="stylesheet" href="./CSS/blogPage.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
- <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
- 
- <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png"alt="Chibby"/>
+ <!--for menu-->
+ <script src="../javaScript/navMenu.js"></script>
+ <link rel="stylesheet" href="../CSS/mainmenu.css">
+ <!--favicon-->
+ <link rel="stylesheet" href="../CSS/blogPage.css">
+ <!--Icons-->
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+ <!--favicon-->
+ <link rel="shortcut icon" type="image/mng" href="../images/Sikhue Chibby 5.png" alt="Chibby" />
    </head>
 <body>
   <!-- navigation starts here--> 
-  <section id="nav-placeholder">
-
-  </section>
   
-  <script>
-    $.get("nav.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    </script>
   <!-- navigation ends here--> 
         <!-- content starts here--> 
         <section class="title animated fadeInDown" id="title">Creative Blogs.</section>
         <section class="container">
                   <ul class="blog-post columns-2">
                     <li>
-                      <img src="./images/lockdownPhoto.jpg" />
+                      <img src="../images/lockdownPhoto.jpg" />
                       <h3>Earning during lockdown</h3>
                       <p>When people are reunited, whatever the cause may be, they will always want to capture those moments in still or motion picture.  These shoots tend to be short and sweet, and even if you just sell a few of the images, it can be a way to turn an otherwise lazy Sunday afternoon into a business venture. </p>
                      <a href="creativeBlog1.html" style="color: white;"> <section class="button">Read More</section></a>
                     </li>
                     <li>
-                      <img src="./images/create.jpg" />
+                      <img src="../images/create.jpg" />
                       <h3>I would be more creative if…</h3>
                       <p>If only we could understand that gaming, photography, and dancing are not hobbies, but a means of professionally curating arts.</p>
                       <a href="creativeBlog2.html" style="color: white;"> <section class="button">Read More</section></a>
@@ -48,15 +42,7 @@
         <!-- content ends here--> 
 
         <!-- footer starts here-->           
-        <section id="nav-footer">
-
-        </section>
         
-        <script>
-          $.get("footer.html", function(data){
-              $("#nav-footer").replaceWith(data);
-          });
-          </script>
         <!-- footer ends here--> 
 </body>
 </html>

@@ -1,12 +1,12 @@
 (function() {
-    var $slides = document.querySelectorAll('.slide');
-    var $controls = document.querySelectorAll('.slider__control');
-    var numOfSlides = $slides.length;
-    var slidingAT = 1300; // sync this with scss variable
-    var slidingBlocked = false;
+    const $slides = document.querySelectorAll('.slide');
+    const $controls = document.querySelectorAll('.slider__control');
+    const numOfSlides = $slides.length;
+    const slidingAT = 1300; // sync this with scss constiable
+    const slidingBlocked = false;
   
     [].slice.call($slides).forEach(function($el, index) {
-      var i = index + 1;
+      const i = index + 1;
       $el.classList.add('slide-' + i);
       $el.dataset.slide = i;
     });
@@ -19,14 +19,14 @@
       if (slidingBlocked) return;
       slidingBlocked = true;
   
-      var $control = this;
-      var isRight = $control.classList.contains('m--right');
-      var $curActive = document.querySelector('.slide.s--active');
-      var index = +$curActive.dataset.slide;
+      const $control = this;
+      const isRight = $control.classList.contains('m--right');
+      const $curActive = document.querySelector('.slide.s--active');
+      const index = +$curActive.dataset.slide;
       (isRight) ? index++ : index--;
       if (index < 1) index = numOfSlides;
       if (index > numOfSlides) index = 1;
-      var $newActive = document.querySelector('.slide-' + index);
+      const $newActive = document.querySelector('.slide-' + index);
   
       $control.classList.add('a--rotation');
       $curActive.classList.remove('s--active', 's--active-prev');
@@ -36,7 +36,7 @@
       if (!isRight) $newActive.classList.add('s--active-prev');
       
   
-      var prevIndex = index - 1;
+      const prevIndex = index - 1;
       if (prevIndex < 1) prevIndex = numOfSlides;
   
       document.querySelector('.slide-' + prevIndex).classList.add('s--prev');

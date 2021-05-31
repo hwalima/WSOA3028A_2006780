@@ -1,85 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>theory</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
- <link rel="stylesheet" href="./CSS/blogPage.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
- <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
- 
- <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png"alt="Chibby"/>
-   </head>
+
+  <!--for menu-->
+  <script src="../javaScript/navMenu.js"></script>
+  <link rel="stylesheet" href="../CSS/mainmenu.css">
+  <!--favicon-->
+  <link rel="stylesheet" href="../CSS/blogPage.css">
+  <!--Icons-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+  <!--favicon-->
+  <link rel="shortcut icon" type="image/mng" href="../images/Sikhue Chibby 5.png" alt="Chibby" />
+</head>
+
 <body>
- <!-- navigation starts here--> 
- <section id="nav-placeholder">
 
-</section>
+  <!-- navigation ends here-->
+  <!-- content starts here-->
+  <section class="title animated fadeInDown" id="title">Theory Blogs</section>
+  <section class="container">
+    <ul class="blog-post columns-2">
+      <li>
+        <img src="../images/garden.png" />
+        <h3>The garden of forking paths.</h3>
+        <p>The garden of forking paths by Jorge Borges (1962) creates an obscure twist to a story, where the reader
+          keeps pondering what would occur next. “This is a detective story in which the reader is the detective”
+          (Borges, 1962).</p>
+        <a href="blog1.html" style="color: white;">
+          <section class="button">Read More</section>
+        </a>
+      </li>
+      <li>
+        <img src="../images/geocities_hero_2.jpg" />
+        <h3>The ode to Geocities.</h3>
+        <p>A space once existed, where many early web users teased out their relationship with the web. On logging on to
+          GeoCities a 2D space opened, where your presence was represented as neighborhoods which you would hop into and
+          become part of a community. This space set the foundation of blogging sites and social networking as we know
+          it today, A space that James Dladla would have flourished in were it not for the digital divide.</p>
+        <a href="blog2.html" style="color: white;">
+          <section class="button">Read More</section>
+        </a>
+      </li>
+      <li>
+        <img src="../images/Hypertextcartoon2.gif" />
+        <h3>What hypertext is-Noah Wardrip-Fruin.</h3>
+        <p>Nelson Wardrip-Fruin was interested in the documents of the future. Giving credit to Douglas Carl Engelbart,
+          his questions of the early years of hyper texting we centered around: what you can do on the screen that you
+          can also do on paper. As a writer, the transposition of the original magazine layout on the screen was
+          important.</p>
+        <a href="blog3.html" style="color: white;">
+          <section class="button">Read More</section>
+        </a>
+      </li>
+      <li>
+        <img src="../images/marshall.jpg" />
+        <h3>The medium is the message.</h3>
+        <p>The era of new media, media art, or digital art has been characterized by the importance of the way we send
+          and receive messages, over the message itself. Looking at satellite television for example, the audience of
+          new media, then tweets and retweets about the show they watched. </p>
+        <a href="blog4.html" style="color: white;">
+          <section class="button">Read More</section>
+        </a>
+      </li>
+      <li>
+        <img src="../images/impact.jpeg" />
+        <h3>Impact of "The medium is the message".</h3>
+        <p>In his academic work, Understanding Media: The Extensions of Man (1964), Marshall McLuhan changes the
+          landscape of media, more so, mass media, by asserted that “the medium is the message” (McLuhan, 1964: pp7).
+        </p>
+        <a href="blog5.html" style="color: white;">
+          <section class="button">Read More</section>
+        </a>
+      </li>
+      <li>
+        <img src="../images/ui-ux.png" />
+        <h3>User Interface.</h3>
+        <p>UI designs usually use overarching theme colour style to show different information segments on the website.
+          How then does the user knows what is important? Sharp colours difference might be used, but what about
+          accessibility considerations. Some designs borrow from the Von Restorff Effect (1933) which is also known as
+          the isolation effect. By isolating an item by colour, the design promotes the memory of that item.</p>
+        <a href="blog6.html" style="color: white;">
+          <section class="button">Read More</section>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- content ends here-->
 
-<script>
-  $.get("nav.html", function(data){
-      $("#nav-placeholder").replaceWith(data);
-  });
-  </script>
-<!-- navigation ends here--> 
-        <!-- content starts here--> 
-        <section class="title animated fadeInDown" id="title">Theory Blogs</section>
-        <section class="container">
-                  <ul class="blog-post columns-2">
-                    <li>
-                      <img src="./images/garden.png" />
-                      <h3>The garden of forking paths.</h3>
-                      <p>The garden of forking paths by Jorge Borges (1962) creates an obscure twist to a story, where the reader
-                         keeps pondering what would occur next. “This is a detective story in which the reader is the detective” (Borges, 1962).</p>
-                     <a href="blog1.html" style="color: white;"> <section class="button">Read More</section></a>
-                    </li>
-                    <li>
-                      <img src="./images/geocities_hero_2.jpg" />
-                      <h3>The ode to Geocities.</h3>
-                      <p>A space once existed, where many early web users teased out their relationship with the web. On logging on to GeoCities a 2D space opened, where your presence was represented as neighborhoods which you would hop into and become part of a community. This space set the foundation of blogging sites and social networking as we know it today, A space that James Dladla would have flourished in were it not for the digital divide.</p>
-                      <a href="blog2.html" style="color: white;"> <section class="button">Read More</section></a>
-                    </li>
-                    <li>
-                     <img src="./images/Hypertextcartoon2.gif" />
-                      <h3>What hypertext is-Noah Wardrip-Fruin.</h3>
-                      <p>Nelson Wardrip-Fruin was interested in the documents of the future. Giving credit to Douglas Carl Engelbart, his questions of the early years of hyper texting we centered around: what you can do on the screen that you can also do on paper. As a writer, the transposition of the original magazine layout on the screen was important.</p>
-                      <a href="blog3.html" style="color: white;"> <section class="button">Read More</section></a>
-                    </li>
-                    <li>
-                      <img src="./images/marshall.jpg" />
-                      <h3>The medium is the message.</h3>
-                      <p>The era of new media, media art, or digital art has been characterized by the importance of the way we send and receive messages, over the message itself. Looking at satellite television for example, the audience of new media, then tweets and retweets about the show they watched. </p>
-                      <a href="blog4.html" style="color: white;"> <section class="button">Read More</section></a>
-                    </li>
-                    <li>
-                      <img src="./images/impact.jpeg" />
-                      <h3>Impact of "The medium is the message".</h3>
-                      <p>In his academic work, Understanding Media: The Extensions of Man (1964), Marshall McLuhan changes the landscape of media, more so, mass media, by asserted that “the medium is the message” (McLuhan, 1964: pp7). </p>
-                      <a href="blog5.html" style="color: white;"> <section class="button">Read More</section></a>
-                    </li>
-                    <li>
-                      <img src="./images/ui-ux.png" />
-                      <h3>User Interface.</h3>
-                      <p>UI designs usually use overarching theme colour style to show different information segments on the website. How then does the user knows what is important? Sharp colours difference might be used, but what about accessibility considerations. Some designs borrow from the Von Restorff Effect (1933) which is also known as the isolation effect. By isolating an item by colour, the design promotes the memory of that item.</p>
-                      <a href="blog6.html" style="color: white;"> <section class="button">Read More</section></a>
-                    </li>
-                  </ul>
-                </section>
-        <!-- content ends here--> 
+  <!-- footer starts here-->
 
-        <!-- footer starts here-->           
-        <section id="nav-footer">
-
-        </section>
-        
-        <script>
-          $.get("footer.html", function(data){
-              $("#nav-footer").replaceWith(data);
-          });
-          </script>
-        <!-- footer ends here--> 
+  <!-- footer ends here-->
 </body>
+
 </html>
