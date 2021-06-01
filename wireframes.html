@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wireframes</title>
- 
- <!--for menu-->
-  <script src="./navMenu.js"></script>
-  <link rel="stylesheet" href="./CSS/mainmenu.css">
-  <!--favicon-->
-  
-  <!--Icons-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
-  <!--favicon-->
-  <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png" alt="Chibby" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframes</title>
 
-   </head>
+    <!--for menu-->
+    <script src="./navMenu.js"></script>
+    <link rel="stylesheet" href="./CSS/mainmenu.css">
+    <!--favicon-->
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png" alt="Chibby" />
+
+    <!--footer-->
+    <script src="footer.js"></script>
+    <link rel="stylesheet" href="./CSS/footer.css">
+
+</head>
+
 <body>
-  <!-- navigation starts here--> 
-  <section id="nav-placeholder">
+    <!-- navigation starts here-->
+    <section id="nav-placeholder">
 
-  </section>
-  
-  <script>
-    $.get("nav.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
+    </section>
+
+    <script>
+        $.get("nav.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
     </script>
-  <!-- navigation ends here--> 
-        <!-- content starts here--> 
-        <section>
-          <h2 style="text-align: center;">The process.</h2>
-          <img src="./images//process.png" alt="process" class="center">
-        </section>
+    <!-- navigation ends here-->
+    <!-- content starts here-->
+    <section>
+        <h2 style="text-align: center;">The process.</h2>
+        <img src="./images//process.png" alt="process" class="center">
+    </section>
 
-        <section>
-          <h2 style="text-align: center;">Colour choice.</h2>
-          <img src="./images/palette.png" alt="palette" class="center">
-        </section>
+    <section>
+        <h2 style="text-align: center;">Colour choice.</h2>
+        <img src="./images/palette.png" alt="palette" class="center">
+    </section>
 
-        <section>
-          <h2 style="text-align: center;">Landing page.</h2>
-          <img src="./images/Landing page.png" alt="Landing page" class="center">
-        </section>
+    <section>
+        <h2 style="text-align: center;">Landing page.</h2>
+        <img src="./images/Landing page.png" alt="Landing page" class="center">
+    </section>
 
-        <section>
-          <h2 style="text-align: center;">Blog page.</h2>
-          <img src="./images/blogPage.png" alt="blog page" class="center">
-        </section>
+    <section>
+        <h2 style="text-align: center;">Blog page.</h2>
+        <img src="./images/blogPage.png" alt="blog page" class="center">
+    </section>
 
-        <section>
-          <h2 style="text-align: center;">Blog layout.</h2>
-          <img src="./images/blogOne.png" alt="Blog" class="center">
-        </section>
-        <!-- content ends here--> 
+    <section>
+        <h2 style="text-align: center;">Blog layout.</h2>
+        <img src="./images/blogOne.png" alt="Blog" class="center">
+    </section>
+    <!-- content ends here-->
 
-        <!-- footer starts here-->           
-        
-        <!-- footer ends here--> 
+
+    <!-- footer starts here-->
+    <my-footer></my-footer>
+    <!-- footer ends here-->
+
 </body>
+
 </html>

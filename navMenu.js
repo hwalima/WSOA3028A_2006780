@@ -21,7 +21,7 @@ const navItems = [
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
     { href: 'contact.html', text: 'Contact' },
-    { href: './socialPages/facebook.html', text: 'f' },
+    
 
 ];
 

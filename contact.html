@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
 
-  <!--for menu-->
-  <script src="./navMenu.js"></script>
-  <link rel="stylesheet" href="./CSS/mainmenu.css">
- 
-  <!--Icons-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
-  <!--favicon-->
-  <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png" alt="Chibby" />
+    <!--for menu-->
+    <script src="./navMenu.js"></script>
+    <link rel="stylesheet" href="./CSS/mainmenu.css">
 
- </head>
-   </head>
+    <!--Icons-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/mng" href="./images/Sikhue Chibby 5.png" alt="Chibby" />
+
+    <!--footer-->
+    <script src="footer.js"></script>
+    <link rel="stylesheet" href="./CSS/footer.css">
+
+</head>
+</head>
+
 <body>
-  <!-- navigation starts here--> 
-  <section id="nav-placeholder">
+    <!-- navigation starts here-->
 
-  </section>
-  
-  <script>
-    $.get("nav.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    </script>
-  <!-- navigation ends here--> 
-        <!-- content starts here--> 
-        <section class="mapouter"><section class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=521%20Rabotapi%20&%20Manamela%20Street%20Moshoeshoe%20Section%20Kathlehong&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org">putlocker</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}</style><a href="https://www.embedgooglemap.net">google map in website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></section></section>
-        <!-- content ends here--> 
-  
-        <!-- content ends here--> 
+    <!-- navigation ends here-->
+    <!-- content starts here-->
+    <section class="mapouter">
+        <section class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=521%20Rabotapi%20&%20Manamela%20Street%20Moshoeshoe%20Section%20Kathlehong&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"></iframe><a href="https://putlocker-is.org">putlocker</a><br>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 1080px;
+                }
+            </style><a href="https://www.embedgooglemap.net">google map in website</a>
+            <style>
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 1080px;
+                }
+            </style>
+        </section>
+    </section>
+    <!-- content ends here-->
 
-        <!-- footer starts here-->           
-        <section id="nav-footer"> </section>
-        
-        <script>
-          $.get("footer.html", function(data){
-              $("#nav-footer").replaceWith(data);
-          });
-          </script>
-        <!-- footer ends here--> 
+    <!-- content ends here-->
+
+    <!-- footer starts here-->
+    <my-footer></my-footer>
+    <!-- footer ends here-->
 </body>
+
 </html>
