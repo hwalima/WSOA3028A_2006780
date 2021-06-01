@@ -16,7 +16,7 @@ const blogItems = [
 ];
 
 const navItems = [
-    { href: 'index.html', text: 'Home', className: 'fa fa-fw fa-home' },
+    { href: '../index.html', text: 'Home', className: 'fa fa-fw fa-home' },
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
