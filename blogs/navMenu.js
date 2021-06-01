@@ -1,18 +1,18 @@
 
 // All items we'd like to add
 const aboutItems = [
-    { href: 'jamesDladla.html', text: 'James' },
-    { href: 'wireframes.html', text: 'Wireframes' }
+    { href: '../jamesDladla.html', text: 'James' },
+    { href: '../wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: 'closePictures.html', text: 'Close', color: "purple", },
-    { href: 'widePictures.html', text: 'Wide' },
-    { href: 'sowetoPictures.html', text: 'Soweto' }
+    { href: '../closePictures.html', text: 'Close', color: "purple", },
+    { href: '../widePictures.html', text: 'Wide' },
+    { href: '../sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
-    { href: './blogs/theoryBlogs.html', text: 'Theory' },
-    { href: './blogs/creativeBlogs.html', text: 'Creative' },
-    { href: './blogs/bonusBlogs.html', text: 'Bonus' }
+    { href: 'theoryBlogs.html', text: 'Theory' },
+    { href: 'creativeBlogs.html', text: 'Creative' },
+    { href: 'bonusBlogs.html', text: 'Bonus' }
 ];
 
 const navItems = [
@@ -20,8 +20,8 @@ const navItems = [
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: 'contact.html', text: 'Contact' },
-    { href: './socialPages/facebook.html', text: 'f' },
+    { href: '../contact.html', text: 'Contact' },
+    { href: '../socialPages/facebook.html', text: 'f' },
 
 ];
 
