@@ -1,6 +1,12 @@
+body { padding-top: 50px; }
 .menu {
 	background: #726b7b;
-	height: 4rem; }
+	height: 4rem; 
+	position: fixed;
+	width: 100%;
+	top: 0;
+	display: block;
+}
 	.menu ol {
 	  list-style-type: none;
 	  margin: 0 auto;
@@ -60,7 +66,8 @@
 			background: #726b7b; } }
 	@media screen and (max-width: 600px) {
 	  .menu {
-		position: relative; }
+		position: fixed;
+	top: 0; }
 		.menu:after {
 		  content: '';
 		  position: absolute;
@@ -131,7 +138,8 @@
 	font-size: 16px;
 	font-family: 'Fira Mono', monospace;
 	margin: 0;
-	background: white; }
+
+	 }
   
   * {
 	box-sizing: border-box; }
