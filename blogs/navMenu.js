@@ -12,7 +12,7 @@ const portfolioItems = [
 const blogItems = [
     { href: 'theoryBlogs.html', text: 'Theory' },
     { href: 'creativeBlogs.html', text: 'Creative' },
-    { href: 'bonusBlogs.html', text: 'Bonus' }
+    { href: 'bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
