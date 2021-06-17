@@ -35,7 +35,7 @@ class myFooter extends HTMLElement {
               <ul>
                 <li><a href="theoryBlogs.html">Theory</a></li>
                 <li><a href="creativeBlogs.html">Creative</a></li>
-                <li><a href="bonusBlogs.html">Bonus</a></li>
+                <li><a href="bonus.html">Bonus</a></li>
               </ul>
             </section>
             <section class="ft-main-item">
