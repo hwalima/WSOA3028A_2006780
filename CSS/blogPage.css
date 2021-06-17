@@ -13,6 +13,7 @@
 .container {
   margin: 2em 0;
   text-align: center;
+  background: #222;
 }
 
 ul.blog-post {
