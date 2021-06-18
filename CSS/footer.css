@@ -50,6 +50,11 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
 }
+.ft-main-item:hover {
+    color: #FFD369;
+    list-style: none;
+    text-decoration: none;
+}
 
 @media only screen and (min-width: 29.8125rem
 /* 477px */

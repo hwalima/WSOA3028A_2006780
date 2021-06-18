@@ -43,6 +43,9 @@ body { padding-top: 50px; font-family: 'Ubuntu', sans-serif;  }
 		text-overflow: ellipsis;
 		display: block;
 		color: #FFF; }
+		.menu-item a:hover{
+			background: #FFD369;
+		}
 	  .sub-menu .menu-item {
 		padding: 0.75rem 0;
 		background: #222831;
@@ -58,8 +61,7 @@ body { padding-top: 50px; font-family: 'Ubuntu', sans-serif;  }
 		.sub-menu .menu-item:nth-child(3) {
 		  animation-duration: 0.4s;
 		  animation-delay: 0.2s; }
-		.sub-menu .menu-item:hover {
-		  background: black; }
+		
 		.sub-menu .menu-item a {
 		  padding: 0 0.75rem; }
 		@media screen and (max-width: 600px) {
