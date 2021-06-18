@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans:300);
 
 *, *:before, *:after { @include box-sizing(border-box) }
 

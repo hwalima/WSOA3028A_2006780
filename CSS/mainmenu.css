@@ -1,6 +1,7 @@
-body { padding-top: 50px; }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body { padding-top: 50px; font-family: 'Ubuntu', sans-serif;  }
 .menu {
-	background: #726b7b;
+	background: #222831;
 	height: 4rem; 
 	position: fixed;
 	width: 100%;
@@ -26,7 +27,7 @@ body { padding-top: 50px; }
 		  border-radius: 50%;
 		  bottom: 5px;
 		  left: calc(50% - 2px);
-		  background: #FECEAB;
+		  background: #FFD369;
 		  will-change: transform;
 		  transform: scale(0);
 		  transition: transform 0.2s ease; }
@@ -44,7 +45,7 @@ body { padding-top: 50px; }
 		color: #FFF; }
 	  .sub-menu .menu-item {
 		padding: 0.75rem 0;
-		background: #726b7b;
+		background: #222831;
 		opacity: 0;
 		transform-origin: bottom;
 		animation: enter 0.2s ease forwards; }
@@ -58,12 +59,12 @@ body { padding-top: 50px; }
 		  animation-duration: 0.4s;
 		  animation-delay: 0.2s; }
 		.sub-menu .menu-item:hover {
-		  background: #dca684; }
+		  background: black; }
 		.sub-menu .menu-item a {
 		  padding: 0 0.75rem; }
 		@media screen and (max-width: 600px) {
 		  .sub-menu .menu-item {
-			background: #726b7b; } }
+			background: #EEEEEE; } }
 	@media screen and (max-width: 600px) {
 	  .menu {
 		position: fixed;
@@ -79,7 +80,7 @@ body { padding-top: 50px; }
 		  box-shadow: 0 10px #FFF, 0 -10px #FFF; }
 		.menu > ol {
 		  display: none;
-		  background: #726b7b;
+		  background: #222831;
 		  flex-direction: column;
 		  justify-content: center;
 		  height: 100vh;
@@ -136,7 +137,7 @@ body { padding-top: 50px; }
   
   html, body {
 	font-size: 16px;
-	font-family: 'Fira Mono', monospace;
+	font-family: 'Ubuntu', sans-serif; 
 	margin: 0;
 
 	 }

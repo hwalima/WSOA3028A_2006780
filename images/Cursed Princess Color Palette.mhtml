@@ -34,7 +34,7 @@ rap/3.2.0/css/bootstrap.min.css">
 
 <title>Cursed Princess Color Palette</title>
 <meta name=3D"description" content=3D"Cursed Princess color palette created=
- by unluckymushroom that consists #726b7b,#d5c0d0,#f7f8f9,#e9dec6,#dca684 c=
+ by unluckymushroom that consists #222831,#d5c0d0,#f7f8f9,#e9dec6,#FFD369 c=
 olors.">
 
 <meta property=3D"og:title" content=3D"Cursed Princess Color Palette">
@@ -187,8 +187,8 @@ px" data-ad-client=3D"ca-pub-7198764309405012" data-ad-slot=3D"3651152005">=
             <div class=3D"col-md-6">
                 <h1>Cursed Princess Color Palette</h1>
 <div class=3D"palettecontainer">
-<div class=3D"palettecolordivc" title=3D"#726b7b" style=3D"background-color=
-:#726b7b">
+<div class=3D"palettecolordivc" title=3D"#222831" style=3D"background-color=
+:#222831">
                         </div>
 <div class=3D"palettecolordivc" title=3D"#d5c0d0" style=3D"background-color=
 :#d5c0d0">
@@ -199,8 +199,8 @@ px" data-ad-client=3D"ca-pub-7198764309405012" data-ad-slot=3D"3651152005">=
 <div class=3D"palettecolordivc" title=3D"#e9dec6" style=3D"background-color=
 :#e9dec6">
                         </div>
-<div class=3D"palettecolordivc" title=3D"#dca684" style=3D"background-color=
-:#dca684">
+<div class=3D"palettecolordivc" title=3D"#FFD369" style=3D"background-color=
+:#FFD369">
                         </div>
  <div class=3D"clearfix"></div>
 </div>
@@ -229,9 +229,9 @@ rite palettes</a>
         <th>RGB</th>
     </tr>
     <tr>
-        <td style=3D"background-color:#726b7b"></td>
+        <td style=3D"background-color:#222831"></td>
         <td><a href=3D"https://www.color-hex.com/color/726b7b" title=3D"#72=
-6b7b color">#726b7b</a></td>
+6b7b color">#222831</a></td>
         <td>(114,107,123)</td>
     </tr>
     <tr>
@@ -253,9 +253,9 @@ dec6 color">#e9dec6</a></td>
         <td>(233,222,198)</td>
     </tr>
     <tr>
-        <td style=3D"background-color:#dca684"></td>
+        <td style=3D"background-color:#FFD369"></td>
         <td><a href=3D"https://www.color-hex.com/color/dca684" title=3D"#dc=
-a684 color">#dca684</a></td>
+a684 color">#FFD369</a></td>
         <td>(220,166,132)</td>
     </tr>
 </tbody></table>
