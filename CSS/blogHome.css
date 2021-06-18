@@ -1,7 +1,7 @@
 
  body {
-	 color: #555;
-	 background: #222;
+	 color: #FFD369;
+	 background: #222831;
 	 text-align: center;
 	 font-family: 'Roboto Mono';
 	 padding: 1em;	 
@@ -82,13 +82,13 @@
 	 background-position: center !important;
 	 height: 220px;
 	 padding: 1em 2em;
-	 background: #313131;
+	 background: #FFD369;
 	 border-radius: 10px;
 }
  .flip > .front p, .flip > .back p {
 	 font-size: 0.9125rem;
 	 line-height: 160%;
-	 color: #999;
+	 color: white;
 }
  .text-shadow {
 	

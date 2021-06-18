@@ -23,7 +23,7 @@ footer a {
 }
 
 a:hover {
-    
+    color: #EEEEEE;
     list-style: none;
     text-decoration: none;
 }
@@ -31,7 +31,7 @@ a:hover {
 .ft-title {
     color: #EEEEEE;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.375rem;
+    
     padding-bottom: 0.625rem;
 }
 

@@ -7,12 +7,14 @@
 	font-style: bold;
 	text-align: center;
 }
-
+body {
+	color: #FFD369;
+	background: #222831;}
 
 .container {
   margin: 2em 0;
   text-align: center;
-  background: #222;
+  background: #222831;
 }
 
 ul.blog-post {
