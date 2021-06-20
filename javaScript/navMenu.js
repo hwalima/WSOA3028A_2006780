@@ -37,7 +37,7 @@ const navList = document.createElement("ol");
 
 //run the Rendermenu function
 const rendeMenu = () => {
-    //let pathPrefix=window.location.pathname==="WSOA3028A_2006780"?'./':'../'
+    let pathPrefix=window.location.pathname==="WSOA3028A_2006780"?'./':'../'
     const navBar = document.querySelector(".menu-item");
 
     for (let i = 0; i < navItems.length; i++) {
