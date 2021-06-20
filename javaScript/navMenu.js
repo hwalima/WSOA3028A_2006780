@@ -1,26 +1,26 @@
 
 // All items we'd like to add
 const aboutItems = [
-    { href: '../jamesDladla.html', text: 'James' },
-    { href: '../wireframes.html', text: 'Wireframes' }
+    { href: '/jamesDladla.html', text: 'James' },
+    { href: '/wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: '../closePictures.html', text: 'Close', color: "purple", },
-    { href: '../widePictures.html', text: 'Wide' },
-    { href: '../sowetoPictures.html', text: 'Soweto' }
+    { href: '/closePictures.html', text: 'Close', color: "purple", },
+    { href: '/widePictures.html', text: 'Wide' },
+    { href: '/sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
-    { href: 'theoryBlogs.html', text: 'Theory' },
-    { href: 'creativeBlogs.html', text: 'Creative' },
-    { href: 'bonus.html', text: 'Bonus' }
+    { href: '/blogs/theoryBlogs.html', text: 'Theory' },
+    { href: '/blogs/creativeBlogs.html', text: 'Creative' },
+    { href: '/blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
-    { href: '../index.html', text: 'Home', className: 'fa fa-fw fa-home' },
+    { href: '/index.html', text: 'Home', className: 'fa fa-fw fa-home' },
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: '../contact.html', text: 'Contact' },
+    { href: '/contact.html', text: 'Contact' },
     
 
 ];
@@ -37,6 +37,7 @@ const navList = document.createElement("ol");
 
 //run the Rendermenu function
 const rendeMenu = () => {
+    let pathPrefix=window.location.pathname==="/WSOA3028A_2006780/"?'./':'../'
     const navBar = document.querySelector(".menu-item");
 
     for (let i = 0; i < navItems.length; i++) {
