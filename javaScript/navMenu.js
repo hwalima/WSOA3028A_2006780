@@ -1,26 +1,26 @@
 
 // All items we'd like to add
 const aboutItems = [
-    { href: 'WSOA3028A_2006780/jamesDladla.html', text: 'James' },
-    { href: 'WSOA3028A_2006780/wireframes.html', text: 'Wireframes' }
+    { href: '/jamesDladla.html', text: 'James' },
+    { href: '/wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: 'WSOA3028A_2006780/closePictures.html', text: 'Close', color: "purple", },
-    { href: 'WSOA3028A_2006780/widePictures.html', text: 'Wide' },
-    { href: 'WSOA3028A_2006780/sowetoPictures.html', text: 'Soweto' }
+    { href: '/closePictures.html', text: 'Close', color: "purple", },
+    { href: '/widePictures.html', text: 'Wide' },
+    { href: '/sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
-    { href: 'WSOA3028A_2006780/blogs/theoryBlogs.html', text: 'Theory' },
-    { href: 'WSOA3028A_2006780/blogs/creativeBlogs.html', text: 'Creative' },
-    { href: 'WSOA3028A_2006780/blogs/bonus.html', text: 'Bonus' }
+    { href: '/blogs/theoryBlogs.html', text: 'Theory' },
+    { href: '/blogs/creativeBlogs.html', text: 'Creative' },
+    { href: '/blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
-    { href: 'WSOA3028A_2006780/index.html', text: 'Home', className: 'fa fa-fw fa-home' },
+    { href: '/index.html', text: 'Home', className: 'fa fa-fw fa-home' },
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: 'WSOA3028A_2006780/contact.html', text: 'Contact' },
+    { href: 'contact.html', text: 'Contact' },
     
 
 ];
@@ -37,7 +37,7 @@ const navList = document.createElement("ol");
 
 //run the Rendermenu function
 const rendeMenu = () => {
-    let pathPrefix=window.location.pathname==="WSOA3028A_2006780"?'./':'../'
+    let mainPath=window.location.pathname==="/WSOA3028A_2006780/"?'.':'..'
     const navBar = document.querySelector(".menu-item");
 
     for (let i = 0; i < navItems.length; i++) {
