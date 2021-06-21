@@ -10,9 +10,9 @@ const portfolioItems = [
     { href: 'sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
-    { href: './blogs/theoryBlogs.html', text: 'Theory' },
-    { href: './blogs/creativeBlogs.html', text: 'Creative' },
-    { href: './blogs/bonus.html', text: 'Bonus' }
+    { href: 'blogs/theoryBlogs.html', text: 'Theory' },
+    { href: 'blogs/creativeBlogs.html', text: 'Creative' },
+    { href: 'blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
