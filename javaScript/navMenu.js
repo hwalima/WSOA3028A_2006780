@@ -10,17 +10,17 @@ const portfolioItems = [
     { href: 'sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
-    { href: '../blogs/theoryBlogs.html', text: 'Theory' },
-    { href: '../blogs/creativeBlogs.html', text: 'Creative' },
-    { href: '../blogs/bonus.html', text: 'Bonus' }
+    { href: './blogs/theoryBlogs.html', text: 'Theory' },
+    { href: './blogs/creativeBlogs.html', text: 'Creative' },
+    { href: './blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
-    { href: '../index.html', text: 'Home', className: 'fa fa-fw fa-home' },
+    { href: 'index.html', text: 'Home', className: 'fa fa-fw fa-home' },
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: '../contact.html', text: 'Contact' },
+    { href: 'contact.html', text: 'Contact' },
     
 
 ];
