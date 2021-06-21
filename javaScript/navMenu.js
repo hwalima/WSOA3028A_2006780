@@ -1,26 +1,26 @@
 
 // All items we'd like to add
 const aboutItems = [
-    { href: '/jamesDladla.html', text: 'James' },
-    { href: '/wireframes.html', text: 'Wireframes' }
+    { href: 'WSOA3028A_2006780/jamesDladla.html', text: 'James' },
+    { href: 'WSOA3028A_2006780/wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: '/closePictures.html', text: 'Close', color: "purple", },
-    { href: '/widePictures.html', text: 'Wide' },
-    { href: '/sowetoPictures.html', text: 'Soweto' }
+    { href: 'WSOA3028A_2006780/closePictures.html', text: 'Close', color: "purple", },
+    { href: 'WSOA3028A_2006780/widePictures.html', text: 'Wide' },
+    { href: 'WSOA3028A_2006780/sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
-    { href: '/blogs/theoryBlogs.html', text: 'Theory' },
-    { href: '/blogs/creativeBlogs.html', text: 'Creative' },
-    { href: '/blogs/bonus.html', text: 'Bonus' }
+    { href: 'WSOA3028A_2006780/blogs/theoryBlogs.html', text: 'Theory' },
+    { href: 'WSOA3028A_2006780/blogs/creativeBlogs.html', text: 'Creative' },
+    { href: 'WSOA3028A_2006780/blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
-    { href: '/index.html', text: 'Home', className: 'fa fa-fw fa-home' },
+    { href: 'WSOA3028A_2006780/index.html', text: 'Home', className: 'fa fa-fw fa-home' },
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: '/contact.html', text: 'Contact' },
+    { href: 'WSOA3028A_2006780/contact.html', text: 'Contact' },
     
 
 ];
