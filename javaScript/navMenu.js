@@ -1,13 +1,13 @@
 
 // All items we'd like to add
 const aboutItems = [
-    { href: '../jamesDladla.html', text: 'James'},
-    { href: '../wireframes.html', text: 'Wireframes' }
+    { href: '/jamesDladla.html', text: 'James'},
+    { href: '/wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: '../closePictures.html', text: 'Close', color: "purple", },
-    { href: '../widePictures.html', text: 'Wide' },
-    { href: '../sowetoPictures.html', text: 'Soweto' }
+    { href: '/closePictures.html', text: 'Close', color: "purple", },
+    { href: '/widePictures.html', text: 'Wide' },
+    { href: '/sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
     { href: '../blogs/theoryBlogs.html', text: 'Theory' },
@@ -16,7 +16,7 @@ const blogItems = [
 ];
 
 const navItems = [
-    { href: '../index.html', text: 'Home'},
+    { href: '/index.html', text: 'Home'},
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
