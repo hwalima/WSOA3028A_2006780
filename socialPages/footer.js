@@ -25,7 +25,7 @@ class myFooter extends HTMLElement {
               <h2 class="ft-title"><i class="fas fa-briefcase"></i>  Portfolio</h2>
               <ul>
                 <li><a href="../closePictures.html">Close</a></li>
-                <li><a href="../widePictures.html">Wide</a></li>
+                <li><a href="../Search_Images.html">Wide</a></li>
                 <li><a href="./sowetoPictures.html">Soweto</a></li>
                
               </ul>

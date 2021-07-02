@@ -6,7 +6,7 @@ const aboutItems = [
 ];
 const portfolioItems = [
     { href: '/closePictures.html', text: 'Close', color: "purple", },
-    { href: '/widePictures.html', text: 'Wide' },
+    { href: '/Search_Images.html', text: 'Search' },
     { href: '/sowetoPictures.html', text: 'Soweto' }
 ];
 const blogItems = [
