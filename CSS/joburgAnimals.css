@@ -6,7 +6,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 100vh;
+	height: 130vh;
 	margin: 0;
 }
 
@@ -17,6 +17,7 @@ body {
 }
 
 .result {
+	
 	background-color: #FFD369;
 	display: flex;
 	align-items: center;
@@ -56,4 +57,5 @@ button:active {
 button:focus {
 	outline: none
 }
+
 
