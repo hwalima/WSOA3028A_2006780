@@ -1,0 +1,22 @@
+@import "compass/css3";
+
+ html:hover span, body:hover span {
+	 display: none;
+}
+ canvas {
+	 cursor: crosshair;
+}
+ strong {
+	font-family: 'Ubuntu', sans-serif;
+	 font-size: 80px;
+	 position: fixed;
+	 top: 10%;
+	 left: 50%;
+	 color: #222831;
+	 margin-top: -40px;
+	 margin-left: -200px;
+}
+html{
+    background-color: #FFD369;
+}
+ 

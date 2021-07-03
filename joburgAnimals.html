@@ -10,13 +10,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soweto Pictures</title>
+    <title>Joburg animals</title>
 
     <!--for menu-->
-    <script src="./javaScript/navMenu.js"></script>
+    <script src="navMenu.js"></script>
     <link rel="stylesheet" href="./CSS/mainmenu.css">
-    <!--pictures-->
-    <link rel="stylesheet" href="./CSS/gallerySoweto.css">
+    <!--Joburg animals-->
+    <link rel="stylesheet" href="./CSS/joburgAnimals.css">
+   
     <!--Icons-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
     <!--favicon-->
@@ -29,26 +30,22 @@
 </head>
 
 <body>
+    
 
-    <!-- navigation ends here-->
-    <!-- content starts here-->
-    <h1 style="text-align: center;">Shot on their knees.</h1>
-    <section class="slide">
-        <section class="slide__label">Scroll Down</section>
-    </section>
-    <h1 style="text-align: center;">A call to release detainees.</h1>
-    <section class="slide"></section>
-    <h1 style="text-align: center;">Hunderds died.</h1>
-    <section class="slide"></section>
-    <h1 style="text-align: center;">Buildings set ablaze.</h1>
-    <section class="slide"></section>
-    <h1 style="text-align: center;">But victory came in the morning.</h1>
-    <section class="slide"></section>
-    <!-- content ends here-->
-
-    <!-- footer starts here-->
+    <Section class="results">
+        <Section id="cat_result" class="result">
+            <p>A random cat in Johannesburg.</p>
+        </Section>
+        <Section id="dog_result" class="result">
+            <p>A random dog in Johannesburg.</p>
+        </Section>
+    </Section>
+    
+    <Section class="buttons">
+        <button id="cat_btn">Get Cat</button>
+        <button id="dog_btn">Get Dog</button>
+    </Section>
     <my-footer></my-footer>
-    <!-- footer ends here-->
 </body>
-
+<script src="./javaScript/randomAnimals.js"></script>
 </html>

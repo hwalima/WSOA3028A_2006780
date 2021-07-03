@@ -15,6 +15,7 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="far fa-person-sign"></i>  About</h2>
               <ul>
+              <li><a href="../myStory.html">My story</a></li>
                 <li><a href="../jamesDladla.html">James Dladla</a></li>
                 <li><a href="../wireframes.html">Wireframes</a></li>
                 
@@ -24,9 +25,9 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="fas fa-briefcase"></i>  Portfolio</h2>
               <ul>
-                <li><a href="../closePictures.html">Close</a></li>
-                <li><a href="../Search_Images.html">Wide</a></li>
-                <li><a href="../sowetoPictures.html">Soweto</a></li>
+              <li><a href="../closePictures.html">gallery</a></li>
+              <li><a href="../Search_Images.html">Search</a></li>
+              <li><a href="../joburgAnimals.html">Joburg cats and dogs</a></li>
                
               </ul>
             </section>
