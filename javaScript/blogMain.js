@@ -30,8 +30,7 @@ setInterval(checkTime(), 1000);
 
 
 
-// Dark Mode Switcher
-// Source: https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
+
 const toggleSwitch = document.querySelector('.dark_mode_switch input[type="checkbox"]');
 
 function switchTheme(e) {

@@ -85,7 +85,7 @@ function draw() {
         counter = 0;
       }
     
-    //console.log (position.x + Math.cos( angle ) * stepSize)
+    
       position.x = position.x + Math.cos(angle) * stepSize;
       position.y = position.y + Math.sin(angle) * stepSize;
 
