@@ -9,18 +9,7 @@ body {
   background-image: url('https://source.unsplash.com/1600x900/?landscape');
   font-size: 120%;
 }
-.mainHeading{
-  background-color: #FFD369;
-	border: 0;
-	border-radius: 4px;
-	color: #222831;
-	font-size: 18px;
-	padding: 10px;
-	margin: 10px;
-	width: 500px;
-  text-align: center;
-  position: relative;
-}
+
 .card {
   background: #000000d0;
   color: #FFD369;
