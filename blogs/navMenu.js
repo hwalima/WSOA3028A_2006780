@@ -7,8 +7,8 @@ const aboutItems = [
 ];
 const portfolioItems = [
     { href: '../closePictures.html', text: 'Close', color: "purple", },
-    { href: '../Search_Images.html', text: 'Search' },
-    { href: '../joburgAnimals.html', text: 'Joburg cats and dogs' }
+    { href: '../Search_Images.html', text: 'Gallery' },
+    { href: '../joburgAnimals.html', text: 'Cats and Dogs' }
 ];
 const blogItems = [
     { href: 'theoryBlogs.html', text: 'Theory' },
@@ -21,6 +21,7 @@ const navItems = [
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
+    { href: '../weatherAPI.html', text: 'WeatherAPI'},
     { href: '../contact.html', text: 'Contact' },
     
 
