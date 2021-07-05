@@ -1,14 +1,14 @@
 
 // All items we'd like to add
 const aboutItems = [
-    { href: '../myStory.html', text: 'My story'},
-    { href: '../jamesDladla.html', text: 'James' },
-    { href: '../wireframes.html', text: 'Wireframes' }
+    { href: '../mainPages/myStory.html', text: 'My story'},
+    { href: '../mainPages/jamesDladla.html', text: 'James' },
+    { href: '../mainPages/wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: '../closePictures.html', text: 'Close', color: "purple", },
-    { href: '../Search_Images.html', text: 'Gallery' },
-    { href: '../joburgAnimals.html', text: 'Cats and Dogs' }
+    { href: '../mainPages/closePictures.html', text: 'Close', color: "purple", },
+    { href: '../mainPages/Search_Images.html', text: 'Gallery' },
+    { href: '../mainPages/joburgAnimals.html', text: 'Cats and Dogs' }
 ];
 const blogItems = [
     { href: 'theoryBlogs.html', text: 'Theory' },
@@ -17,7 +17,7 @@ const blogItems = [
 ];
 
 const navItems = [
-    { href: '../index.html', text: 'Home', className: 'fa fa-fw fa-home' },
+    { href: '../mainPages/index.html', text: 'Home', className: 'fa fa-fw fa-home' },
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },

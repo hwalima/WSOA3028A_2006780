@@ -11,9 +11,9 @@ const portfolioItems = [
     { href: 'joburgAnimals.html', text: 'Cats and Dogs' }
 ];
 const blogItems = [
-    { href: './blogs/theoryBlogs.html', text: 'Theory' },
-    { href: './blogs/creativeBlogs.html', text: 'Creative' },
-    { href: './blogs/bonus.html', text: 'Bonus' }
+    { href: '../blogs/theoryBlogs.html', text: 'Theory' },
+    { href: '../blogs/creativeBlogs.html', text: 'Creative' },
+    { href: '../blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
@@ -119,9 +119,9 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="fal fa-blog"></i>  Blogs</h2>
               <ul>
-                <li><a href="./blogs/theoryBlogs.html">Theory</a></li>
-                <li><a href="./blogs/creativeBlogs.html">Creative</a></li>
-                <li><a href="./blogs/bonus.html">Bonus</a></li>
+                <li><a href="../blogs/theoryBlogs.html">Theory</a></li>
+                <li><a href="../blogs/creativeBlogs.html">Creative</a></li>
+                <li><a href="../blogs/bonus.html">Bonus</a></li>
               </ul>
             </section>
             <section class="ft-main-item">
@@ -137,11 +137,11 @@ class myFooter extends HTMLElement {
           <!-- Footer social -->
           <section class="ft-social">
             <ul class="ft-social-list">
-              <li><a href="./socialPages/facebook.html"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="./socialPages/twitter.html"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="./socialPages/instagram.html"><i class="fab fa-instagram"></i></a></li>
-               <li><a href="./socialPages/linkedin.html"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="./socialPages/youtube.html"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="../socialPages/facebook.html"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="../socialPages/twitter.html"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="../socialPages/instagram.html"><i class="fab fa-instagram"></i></a></li>
+               <li><a href="../socialPages/linkedin.html"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="../socialPages/youtube.html"><i class="fab fa-youtube"></i></a></li>
             </ul>
           </section>
         
