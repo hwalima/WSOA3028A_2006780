@@ -6,7 +6,7 @@ const aboutItems = [
     { href: 'wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: 'closePictures.html', text: 'Close' },
+    { href: 'closePictures.html', text: 'Find Images' },
     { href: 'Search_Images.html', text: 'Gallery' },
     { href: 'joburgAnimals.html', text: 'Cats and Dogs' }
 ];
