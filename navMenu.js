@@ -2,27 +2,27 @@
 // All items we'd like to add
 const aboutItems = [
     { href: '../mainPages/myStory.html', text: 'My story'},
-    { href: '../mainPages/jamesDladla.html', text: 'James' },
+    { href: '../mainPages/jamesDladla.html', text: 'James'},
     { href: '../mainPages/wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: '../mainPages/closePictures.html', text: 'Close', color: "purple", },
+    { href: '../mainPages/closePictures.html', text: 'Close' },
     { href: '../mainPages/Search_Images.html', text: 'Gallery' },
     { href: '../mainPages/joburgAnimals.html', text: 'Cats and Dogs' }
 ];
 const blogItems = [
-    { href: 'theoryBlogs.html', text: 'Theory' },
-    { href: 'creativeBlogs.html', text: 'Creative' },
-    { href: 'bonus.html', text: 'Bonus' }
+    { href: '../blogs/theoryBlogs.html', text: 'Theory' },
+    { href: '../blogs/creativeBlogs.html', text: 'Creative' },
+    { href: '../blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
-    { href: '../index.html', text: 'Home', className: 'fa fa-fw fa-home' },
+    { href: '../index.html', text: 'Home'},
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: '../weatherAPI.html', text: 'WeatherAPI'},
-    { href: '../contact.html', text: 'Contact' },
+    { href: 'weatherAPI.html', text: 'WeatherAPI'},
+    { href: 'contact.html', text: 'Contact' },
     
 
 ];
@@ -39,6 +39,7 @@ const navList = document.createElement("ol");
 
 //run the Rendermenu function
 const rendeMenu = () => {
+    const pathPrefix=window.location.pathname==="/WSOA3028A_2006780/"?'.':'..'
     const navBar = document.querySelector(".menu-item");
 
     for (let i = 0; i < navItems.length; i++) {
@@ -82,7 +83,6 @@ window.onload = function () {
     document.body.appendChild(navElem);
 }
 
-
 class myFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -92,7 +92,7 @@ class myFooter extends HTMLElement {
           <section class="ft-main">
             <section class="ft-main-item">
               <ul>
-                <li><a href="../index.html"><h2 class="ft-title"> <i class="fa fa-fw fa-home"></i>  Home</h2></a></li> 
+                <li><a href="./index.html"><h2 class="ft-title"> <i class="fa fa-fw fa-home"></i>  Home</h2></a></li> 
               </ul>
               
                 
@@ -100,9 +100,9 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="far fa-person-sign"></i>  About</h2>
               <ul>
-              <li><a href="../myStory.html">My story</a></li>
-                <li><a href="../jamesDladla.html">James Dladla</a></li>
-                <li><a href="../wireframes.html">Wireframes</a></li>
+              <li><a href="./myStory.html">My story</a></li>
+                <li><a href="./jamesDladla.html">James Dladla</a></li>
+                <li><a href="./wireframes.html">Wireframes</a></li>
                 
               </ul>
             </section>
@@ -110,18 +110,18 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="fas fa-briefcase"></i>  Portfolio</h2>
               <ul>
-              <li><a href="../closePictures.html">gallery</a></li>
-              <li><a href="../Search_Images.html">Search</a></li>
-              <li><a href="../joburgAnimals.html">Joburg cats and dogs</a></li>
+                <li><a href="./closePictures.html">gallery</a></li>
+                <li><a href="./Search_Images.html">Search</a></li>
+                <li><a href="./joburgAnimals.html">Joburg cats and dogs</a></li>
                
               </ul>
             </section>
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="fal fa-blog"></i>  Blogs</h2>
               <ul>
-                <li><a href="theoryBlogs.html">Theory</a></li>
-                <li><a href="creativeBlogs.html">Creative</a></li>
-                <li><a href="bonus.html">Bonus</a></li>
+                <li><a href="../blogs/theoryBlogs.html">Theory</a></li>
+                <li><a href="../blogs/creativeBlogs.html">Creative</a></li>
+                <li><a href="../blogs/bonus.html">Bonus</a></li>
               </ul>
             </section>
             <section class="ft-main-item">

@@ -17,7 +17,7 @@ const blogItems = [
 ];
 
 const navItems = [
-    { href: 'index.html', text: 'Home'},
+    { href: '../index.html', text: 'Home'},
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
@@ -92,7 +92,7 @@ class myFooter extends HTMLElement {
           <section class="ft-main">
             <section class="ft-main-item">
               <ul>
-                <li><a href="./index.html"><h2 class="ft-title"> <i class="fa fa-fw fa-home"></i>  Home</h2></a></li> 
+                <li><a href="../index.html"><h2 class="ft-title"> <i class="fa fa-fw fa-home"></i>  Home</h2></a></li> 
               </ul>
               
                 
