@@ -1,28 +1,28 @@
 
 // All items we'd like to add
 const aboutItems = [
-    { href: '../mainPages/myStory.html', text: 'My story'},
-    { href: '../mainPages/jamesDladla.html', text: 'James'},
-    { href: '../mainPages/wireframes.html', text: 'Wireframes' }
+    { href: './mainPages/myStory.html', text: 'My story'},
+    { href: './mainPages/jamesDladla.html', text: 'James'},
+    { href: './mainPages/wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: '../mainPages/closePictures.html', text: 'Close' },
-    { href: '../mainPages/Search_Images.html', text: 'Gallery' },
-    { href: '../mainPages/joburgAnimals.html', text: 'Cats and Dogs' }
+    { href: './mainPages/closePictures.html', text: 'Close' },
+    { href: './mainPages/Search_Images.html', text: 'Gallery' },
+    { href: './mainPages/joburgAnimals.html', text: 'Cats and Dogs' }
 ];
 const blogItems = [
-    { href: '../blogs/theoryBlogs.html', text: 'Theory' },
-    { href: '../blogs/creativeBlogs.html', text: 'Creative' },
-    { href: '../blogs/bonus.html', text: 'Bonus' }
+    { href: './blogs/theoryBlogs.html', text: 'Theory' },
+    { href: './blogs/creativeBlogs.html', text: 'Creative' },
+    { href: './blogs/bonus.html', text: 'Bonus' }
 ];
 
 const navItems = [
-    { href: '../index.html', text: 'Home'},
+    { href: './index.html', text: 'Home'},
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: 'weatherAPI.html', text: 'WeatherAPI'},
-    { href: 'contact.html', text: 'Contact' },
+    { href: './mainPages/weatherAPI.html', text: 'WeatherAPI'},
+    { href: './mainPages/contact.html', text: 'Contact' },
     
 
 ];
