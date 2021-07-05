@@ -6,7 +6,7 @@ const aboutItems = [
     { href: 'wireframes.html', text: 'Wireframes' }
 ];
 const portfolioItems = [
-    { href: 'closePictures.html', text: 'Find Images' },
+    { href: 'findImages.html', text: 'Find Images' },
     { href: 'Search_Images.html', text: 'Gallery' },
     { href: 'joburgAnimals.html', text: 'Cats and Dogs' }
 ];
@@ -110,7 +110,7 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="fas fa-briefcase"></i>  Portfolio</h2>
               <ul>
-                <li><a href="./closePictures.html">gallery</a></li>
+                <li><a href="./findImages.html">gallery</a></li>
                 <li><a href="./Search_Images.html">Search</a></li>
                 <li><a href="./joburgAnimals.html">Joburg cats and dogs</a></li>
                
