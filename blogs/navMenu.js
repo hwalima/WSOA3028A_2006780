@@ -21,8 +21,8 @@ const navItems = [
     { href: '#', text: 'About', subItems: aboutItems },
     { href: '#', text: 'Portfolio', subItems: portfolioItems },
     { href: '#', text: 'Blogs', subItems: blogItems },
-    { href: '../weatherAPI.html', text: 'WeatherAPI'},
-    { href: '../contact.html', text: 'Contact' },
+    { href: '../mainPages/weatherAPI.html', text: 'WeatherAPI'},
+    { href: '../mainPages/contact.html', text: 'Contact' },
     
 
 ];
@@ -100,9 +100,9 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="far fa-person-sign"></i>  About</h2>
               <ul>
-              <li><a href="../myStory.html">My story</a></li>
-                <li><a href="../jamesDladla.html">James Dladla</a></li>
-                <li><a href="../wireframes.html">Wireframes</a></li>
+              <li><a href="../mainPages/myStory.html">My story</a></li>
+                <li><a href="../mainPages/jamesDladla.html">James Dladla</a></li>
+                <li><a href="../mainPages/wireframes.html">Wireframes</a></li>
                 
               </ul>
             </section>
@@ -110,9 +110,9 @@ class myFooter extends HTMLElement {
             <section class="ft-main-item">
               <h2 class="ft-title"><i class="fas fa-briefcase"></i>  Portfolio</h2>
               <ul>
-              <li><a href="../closePictures.html">gallery</a></li>
-              <li><a href="../Search_Images.html">Search</a></li>
-              <li><a href="../joburgAnimals.html">Joburg cats and dogs</a></li>
+              <li><a href="../mainPages/closePictures.html">gallery</a></li>
+              <li><a href="../mainPages/Search_Images.html">Search</a></li>
+              <li><a href="../mainPages/joburgAnimals.html">Joburg cats and dogs</a></li>
                
               </ul>
             </section>
